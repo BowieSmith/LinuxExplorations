@@ -1,0 +1,38 @@
+body {
+	border: outset lightblue;
+	margin: 30px auto 0 auto;
+	padding: 5%;
+	width: 60%;
+	background-color: lightcyan;
+	text-align: center;
+	font-family: courier;
+    
+}
+
+img.center {
+	display: block;
+	margin: 0 auto 50px auto;
+	border: inset grey;
+}
+
+ul#menu {
+	padding: 0;
+	margin: 0;
+	font-size: 150%
+}
+
+ul#menu li {
+	display: inline;
+}
+
+ul#menu li a {
+	background-color: azure;
+	color: blue;
+	padding: 10px 20px;
+	border-radius: 4px;
+	border: inset grey;
+}
+
+ul#menu li a:hover {
+	background-color: #FFB547;
+}
